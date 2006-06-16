@@ -1,0 +1,254 @@
+tea
+------------------------------------------
+Small but sophisticated GTK2 text editor.
+
+Runtime requirements:
+  cygwin-1.5.19-4
+  GConf2-2.12.1-1
+  gnome-vfs2-2.12.2-1
+  gtk2-x11-2.8.17-1
+  gtksourceview-1.6.1-1
+  libaspell15-0.50.3-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.19-4
+  autoconf2.5-2.59-3
+  automake1.9-1.9.6-1
+  binutils-20050610-1
+  cygport-0.1.93-1
+  gawk-3.1.5-2
+  gcc-core-3.4.4-1
+  make-3.80-1
+  pkg-config-0.20-1
+  sed-4.1.4-1
+
+Canonical website:
+  http://tea.linux.kiev.ua/
+
+Canonical download:
+  http://tea.linux.kiev.ua/downloads.html
+
+-------------------------------------------
+
+Build instructions:
+  unpack tea-13.3-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  ./tea-13.3-X.sh all
+
+This will create:
+  /usr/src/tea-13.3-X-src.tar.bz2
+  /usr/src/tea-13.3-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/tea.exe
+  /usr/share/doc/Cygwin/tea-13.3.README
+  /usr/share/doc/tea-13.3/AUTHORS
+  /usr/share/doc/tea-13.3/COPYING
+  /usr/share/doc/tea-13.3/ChangeLog
+  /usr/share/doc/tea-13.3/INSTALL
+  /usr/share/doc/tea-13.3/NEWS
+  /usr/share/doc/tea-13.3/README
+  /usr/share/doc/tea-13.3/TODO
+  /usr/share/locale/cs/LC_MESSAGES/tea.mo
+  /usr/share/locale/de/LC_MESSAGES/tea.mo
+  /usr/share/locale/es/LC_MESSAGES/tea.mo
+  /usr/share/locale/fr/LC_MESSAGES/tea.mo
+  /usr/share/locale/ja/LC_MESSAGES/tea.mo
+  /usr/share/locale/lv/LC_MESSAGES/tea.mo
+  /usr/share/locale/pl/LC_MESSAGES/tea.mo
+  /usr/share/locale/ru/LC_MESSAGES/tea.mo
+  /usr/share/locale/sr/LC_MESSAGES/tea.mo
+  /usr/share/locale/uk/LC_MESSAGES/tea.mo
+  /usr/share/tea/doc/AUTHORS
+  /usr/share/tea/doc/COPYING
+  /usr/share/tea/doc/ChangeLog
+  /usr/share/tea/doc/NEWS
+  /usr/share/tea/doc/README
+  /usr/share/tea/doc/TODO
+  /usr/share/tea/doc/cs/index.html
+  /usr/share/tea/doc/en/a941.html
+  /usr/share/tea/doc/en/c107.html
+  /usr/share/tea/doc/en/c118.html
+  /usr/share/tea/doc/en/c14.html
+  /usr/share/tea/doc/en/c216.html
+  /usr/share/tea/doc/en/c233.html
+  /usr/share/tea/doc/en/c30.html
+  /usr/share/tea/doc/en/c308.html
+  /usr/share/tea/doc/en/c371.html
+  /usr/share/tea/doc/en/c723.html
+  /usr/share/tea/doc/en/c729.html
+  /usr/share/tea/doc/en/c764.html
+  /usr/share/tea/doc/en/c77.html
+  /usr/share/tea/doc/en/c790.html
+  /usr/share/tea/doc/en/c872.html
+  /usr/share/tea/doc/en/c897.html
+  /usr/share/tea/doc/en/c905.html
+  /usr/share/tea/doc/en/index.html
+  /usr/share/tea/doc/en/x275.html
+  /usr/share/tea/doc/en/x315.html
+  /usr/share/tea/doc/en/x334.html
+  /usr/share/tea/doc/en/x351.html
+  /usr/share/tea/doc/en/x378.html
+  /usr/share/tea/doc/en/x404.html
+  /usr/share/tea/doc/en/x438.html
+  /usr/share/tea/doc/en/x449.html
+  /usr/share/tea/doc/en/x463.html
+  /usr/share/tea/doc/en/x473.html
+  /usr/share/tea/doc/en/x480.html
+  /usr/share/tea/doc/en/x491.html
+  /usr/share/tea/doc/en/x503.html
+  /usr/share/tea/doc/en/x59.html
+  /usr/share/tea/doc/en/x602.html
+  /usr/share/tea/doc/en/x608.html
+  /usr/share/tea/doc/en/x620.html
+  /usr/share/tea/doc/en/x673.html
+  /usr/share/tea/doc/en/x682.html
+  /usr/share/tea/doc/en/x708.html
+  /usr/share/tea/doc/en/x71.html
+  /usr/share/tea/doc/en/x718.html
+  /usr/share/tea/doc/en/x803.html
+  /usr/share/tea/doc/en/x829.html
+  /usr/share/tea/doc/en/x833.html
+  /usr/share/tea/doc/en/x840.html
+  /usr/share/tea/doc/en/x846.html
+  /usr/share/tea/doc/en/x855.html
+  /usr/share/tea/doc/en/x861.html
+  /usr/share/tea/doc/en/x868.html
+  /usr/share/tea/doc/en/x889.html
+  /usr/share/tea/doc/es/a799.html
+  /usr/share/tea/doc/es/c105.html
+  /usr/share/tea/doc/es/c18.html
+  /usr/share/tea/doc/es/c197.html
+  /usr/share/tea/doc/es/c210.html
+  /usr/share/tea/doc/es/c231.html
+  /usr/share/tea/doc/es/c298.html
+  /usr/share/tea/doc/es/c34.html
+  /usr/share/tea/doc/es/c590.html
+  /usr/share/tea/doc/es/c616.html
+  /usr/share/tea/doc/es/c623.html
+  /usr/share/tea/doc/es/c63.html
+  /usr/share/tea/doc/es/c651.html
+  /usr/share/tea/doc/es/c675.html
+  /usr/share/tea/doc/es/c742.html
+  /usr/share/tea/doc/es/c771.html
+  /usr/share/tea/doc/es/c792.html
+  /usr/share/tea/doc/es/c94.html
+  /usr/share/tea/doc/es/favicon.ico
+  /usr/share/tea/doc/es/img/caution.gif
+  /usr/share/tea/doc/es/img/cross.png
+  /usr/share/tea/doc/es/img/home.gif
+  /usr/share/tea/doc/es/img/important.gif
+  /usr/share/tea/doc/es/img/leftbuttons.png
+  /usr/share/tea/doc/es/img/logo.gif
+  /usr/share/tea/doc/es/img/next.gif
+  /usr/share/tea/doc/es/img/note.gif
+  /usr/share/tea/doc/es/img/prev.gif
+  /usr/share/tea/doc/es/img/resize.png
+  /usr/share/tea/doc/es/img/rightbuttons.png
+  /usr/share/tea/doc/es/img/runbutton.png
+  /usr/share/tea/doc/es/img/runbutton1.png
+  /usr/share/tea/doc/es/img/tip.gif
+  /usr/share/tea/doc/es/img/toolbar.gif
+  /usr/share/tea/doc/es/img/up.gif
+  /usr/share/tea/doc/es/img/warning.gif
+  /usr/share/tea/doc/es/index.html
+  /usr/share/tea/doc/es/style.css
+  /usr/share/tea/doc/es/x242.html
+  /usr/share/tea/doc/es/x261.html
+  /usr/share/tea/doc/es/x278.html
+  /usr/share/tea/doc/es/x305.html
+  /usr/share/tea/doc/es/x332.html
+  /usr/share/tea/doc/es/x341.html
+  /usr/share/tea/doc/es/x350.html
+  /usr/share/tea/doc/es/x366.html
+  /usr/share/tea/doc/es/x373.html
+  /usr/share/tea/doc/es/x388.html
+  /usr/share/tea/doc/es/x398.html
+  /usr/share/tea/doc/es/x497.html
+  /usr/share/tea/doc/es/x503.html
+  /usr/share/tea/doc/es/x515.html
+  /usr/share/tea/doc/es/x558.html
+  /usr/share/tea/doc/es/x567.html
+  /usr/share/tea/doc/es/x579.html
+  /usr/share/tea/doc/es/x687.html
+  /usr/share/tea/doc/es/x704.html
+  /usr/share/tea/doc/es/x708.html
+  /usr/share/tea/doc/es/x715.html
+  /usr/share/tea/doc/es/x719.html
+  /usr/share/tea/doc/es/x722.html
+  /usr/share/tea/doc/es/x726.html
+  /usr/share/tea/doc/es/x733.html
+  /usr/share/tea/doc/es/x738.html
+  /usr/share/tea/doc/es/x763.html
+  /usr/share/tea/doc/ru/a739.html
+  /usr/share/tea/doc/ru/c105.html
+  /usr/share/tea/doc/ru/c13.html
+  /usr/share/tea/doc/ru/c189.html
+  /usr/share/tea/doc/ru/c204.html
+  /usr/share/tea/doc/ru/c252.html
+  /usr/share/tea/doc/ru/c31.html
+  /usr/share/tea/doc/ru/c316.html
+  /usr/share/tea/doc/ru/c588.html
+  /usr/share/tea/doc/ru/c595.html
+  /usr/share/tea/doc/ru/c626.html
+  /usr/share/tea/doc/ru/c650.html
+  /usr/share/tea/doc/ru/c704.html
+  /usr/share/tea/doc/ru/c725.html
+  /usr/share/tea/doc/ru/c735.html
+  /usr/share/tea/doc/ru/c75.html
+  /usr/share/tea/doc/ru/c97.html
+  /usr/share/tea/doc/ru/index.html
+  /usr/share/tea/doc/ru/x235.html
+  /usr/share/tea/doc/ru/x262.html
+  /usr/share/tea/doc/ru/x281.html
+  /usr/share/tea/doc/ru/x296.html
+  /usr/share/tea/doc/ru/x323.html
+  /usr/share/tea/doc/ru/x330.html
+  /usr/share/tea/doc/ru/x352.html
+  /usr/share/tea/doc/ru/x361.html
+  /usr/share/tea/doc/ru/x386.html
+  /usr/share/tea/doc/ru/x392.html
+  /usr/share/tea/doc/ru/x404.html
+  /usr/share/tea/doc/ru/x414.html
+  /usr/share/tea/doc/ru/x487.html
+  /usr/share/tea/doc/ru/x491.html
+  /usr/share/tea/doc/ru/x505.html
+  /usr/share/tea/doc/ru/x544.html
+  /usr/share/tea/doc/ru/x55.html
+  /usr/share/tea/doc/ru/x553.html
+  /usr/share/tea/doc/ru/x578.html
+  /usr/share/tea/doc/ru/x60.html
+  /usr/share/tea/doc/ru/x645.html
+  /usr/share/tea/doc/ru/x661.html
+  /usr/share/tea/doc/ru/x671.html
+  /usr/share/tea/doc/ru/x678.html
+  /usr/share/tea/doc/ru/x682.html
+  /usr/share/tea/doc/ru/x685.html
+  /usr/share/tea/doc/ru/x701.html
+  /usr/share/tea/doc/ru/x721.html
+  /usr/share/tea/doc/tea_doc.css
+  /usr/share/tea/pixmaps/tea_icon_v2.png
+  /usr/share/tea/pixmaps/tea_logo.jpg
+
+------------------
+
+Port Notes:
+
+----- version 13.3-1 -----
+Version bump.
+
+----- version 12.0-1 -----
+Version bump.
+
+----- version 11.0-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
