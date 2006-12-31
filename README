@@ -3,25 +3,30 @@ tea
 Small but sophisticated GTK2 text editor.
 
 Runtime requirements:
-  cygwin-1.5.19-4
-  GConf2-2.12.1-1
-  gnome-vfs2-2.12.2-1
-  gtk2-x11-2.8.17-1
-  gtksourceview-1.6.1-1
+  cygwin-1.5.23-2
+  GConf2-2.16.0-1
+  gdk-pixbuf2-2.10.6-1
+  glib2-2.12.4-1
+  gnome-vfs2-2.16.2-1
+  gtk2-x11-2.10.6-1
+  gtksourceview-1.8.2-1
+  libX11_6-1.1.1-1
   libaspell15-0.50.3-1
+  libintl8-0.15-1
+  pango-1.14.9-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  cygwin-1.5.19-4
-  autoconf2.5-2.59-3
-  automake1.9-1.9.6-1
-  binutils-20050610-1
-  cygport-0.1.93-1
-  gawk-3.1.5-2
-  gcc-core-3.4.4-1
-  make-3.80-1
-  pkg-config-0.20-1
-  sed-4.1.4-1
+  cygwin-1.5.23-2
+  autoconf2.5-2.60-2
+  automake1.9-1.9.6-2
+  binutils-20060817-1
+  cygport-0.2.7-1
+  gawk-3.1.5-4
+  gcc-core-3.4.4-3
+  make-3.81-1
+  pkg-config-0.21-1
+  sed-4.1.5-2
 
 Canonical website:
   http://tea.linux.kiev.ua/
@@ -32,29 +37,29 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack tea-13.3-X-src.tar.bz2
+  unpack tea-15.0.0-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  ./tea-13.3-X.sh all
+  cygport ./tea-15.0.0-X.cygport all
 
 This will create:
-  /usr/src/tea-13.3-X-src.tar.bz2
-  /usr/src/tea-13.3-X.tar.bz2
+  /usr/src/tea-15.0.0-X-src.tar.bz2
+  /usr/src/tea-15.0.0-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
   /usr/bin/tea.exe
-  /usr/share/doc/Cygwin/tea-13.3.README
-  /usr/share/doc/tea-13.3/AUTHORS
-  /usr/share/doc/tea-13.3/COPYING
-  /usr/share/doc/tea-13.3/ChangeLog
-  /usr/share/doc/tea-13.3/INSTALL
-  /usr/share/doc/tea-13.3/NEWS
-  /usr/share/doc/tea-13.3/README
-  /usr/share/doc/tea-13.3/TODO
+  /usr/share/doc/Cygwin/tea-15.0.0.README
+  /usr/share/doc/tea-15.0.0/AUTHORS
+  /usr/share/doc/tea-15.0.0/COPYING
+  /usr/share/doc/tea-15.0.0/ChangeLog
+  /usr/share/doc/tea-15.0.0/INSTALL
+  /usr/share/doc/tea-15.0.0/NEWS
+  /usr/share/doc/tea-15.0.0/README
+  /usr/share/doc/tea-15.0.0/TODO
   /usr/share/locale/cs/LC_MESSAGES/tea.mo
   /usr/share/locale/de/LC_MESSAGES/tea.mo
   /usr/share/locale/es/LC_MESSAGES/tea.mo
@@ -72,55 +77,57 @@ Files included in the binary package:
   /usr/share/tea/doc/README
   /usr/share/tea/doc/TODO
   /usr/share/tea/doc/cs/index.html
-  /usr/share/tea/doc/en/a941.html
+  /usr/share/tea/doc/en/a1000.html
   /usr/share/tea/doc/en/c107.html
   /usr/share/tea/doc/en/c118.html
   /usr/share/tea/doc/en/c14.html
-  /usr/share/tea/doc/en/c216.html
-  /usr/share/tea/doc/en/c233.html
+  /usr/share/tea/doc/en/c221.html
+  /usr/share/tea/doc/en/c238.html
   /usr/share/tea/doc/en/c30.html
-  /usr/share/tea/doc/en/c308.html
-  /usr/share/tea/doc/en/c371.html
-  /usr/share/tea/doc/en/c723.html
-  /usr/share/tea/doc/en/c729.html
-  /usr/share/tea/doc/en/c764.html
+  /usr/share/tea/doc/en/c313.html
+  /usr/share/tea/doc/en/c379.html
   /usr/share/tea/doc/en/c77.html
-  /usr/share/tea/doc/en/c790.html
-  /usr/share/tea/doc/en/c872.html
-  /usr/share/tea/doc/en/c897.html
-  /usr/share/tea/doc/en/c905.html
+  /usr/share/tea/doc/en/c779.html
+  /usr/share/tea/doc/en/c785.html
+  /usr/share/tea/doc/en/c821.html
+  /usr/share/tea/doc/en/c849.html
+  /usr/share/tea/doc/en/c931.html
+  /usr/share/tea/doc/en/c956.html
+  /usr/share/tea/doc/en/c964.html
   /usr/share/tea/doc/en/index.html
-  /usr/share/tea/doc/en/x275.html
-  /usr/share/tea/doc/en/x315.html
-  /usr/share/tea/doc/en/x334.html
-  /usr/share/tea/doc/en/x351.html
-  /usr/share/tea/doc/en/x378.html
-  /usr/share/tea/doc/en/x404.html
-  /usr/share/tea/doc/en/x438.html
-  /usr/share/tea/doc/en/x449.html
-  /usr/share/tea/doc/en/x463.html
+  /usr/share/tea/doc/en/x280.html
+  /usr/share/tea/doc/en/x323.html
+  /usr/share/tea/doc/en/x342.html
+  /usr/share/tea/doc/en/x359.html
+  /usr/share/tea/doc/en/x388.html
+  /usr/share/tea/doc/en/x414.html
+  /usr/share/tea/doc/en/x448.html
+  /usr/share/tea/doc/en/x459.html
   /usr/share/tea/doc/en/x473.html
-  /usr/share/tea/doc/en/x480.html
-  /usr/share/tea/doc/en/x491.html
-  /usr/share/tea/doc/en/x503.html
+  /usr/share/tea/doc/en/x483.html
+  /usr/share/tea/doc/en/x490.html
+  /usr/share/tea/doc/en/x505.html
+  /usr/share/tea/doc/en/x526.html
+  /usr/share/tea/doc/en/x537.html
+  /usr/share/tea/doc/en/x548.html
+  /usr/share/tea/doc/en/x560.html
   /usr/share/tea/doc/en/x59.html
-  /usr/share/tea/doc/en/x602.html
-  /usr/share/tea/doc/en/x608.html
-  /usr/share/tea/doc/en/x620.html
-  /usr/share/tea/doc/en/x673.html
-  /usr/share/tea/doc/en/x682.html
-  /usr/share/tea/doc/en/x708.html
+  /usr/share/tea/doc/en/x659.html
+  /usr/share/tea/doc/en/x665.html
+  /usr/share/tea/doc/en/x681.html
   /usr/share/tea/doc/en/x71.html
-  /usr/share/tea/doc/en/x718.html
-  /usr/share/tea/doc/en/x803.html
-  /usr/share/tea/doc/en/x829.html
-  /usr/share/tea/doc/en/x833.html
-  /usr/share/tea/doc/en/x840.html
-  /usr/share/tea/doc/en/x846.html
-  /usr/share/tea/doc/en/x855.html
-  /usr/share/tea/doc/en/x861.html
-  /usr/share/tea/doc/en/x868.html
-  /usr/share/tea/doc/en/x889.html
+  /usr/share/tea/doc/en/x734.html
+  /usr/share/tea/doc/en/x743.html
+  /usr/share/tea/doc/en/x769.html
+  /usr/share/tea/doc/en/x862.html
+  /usr/share/tea/doc/en/x888.html
+  /usr/share/tea/doc/en/x892.html
+  /usr/share/tea/doc/en/x899.html
+  /usr/share/tea/doc/en/x905.html
+  /usr/share/tea/doc/en/x914.html
+  /usr/share/tea/doc/en/x920.html
+  /usr/share/tea/doc/en/x927.html
+  /usr/share/tea/doc/en/x948.html
   /usr/share/tea/doc/es/a799.html
   /usr/share/tea/doc/es/c105.html
   /usr/share/tea/doc/es/c18.html
@@ -186,52 +193,55 @@ Files included in the binary package:
   /usr/share/tea/doc/es/x733.html
   /usr/share/tea/doc/es/x738.html
   /usr/share/tea/doc/es/x763.html
-  /usr/share/tea/doc/ru/a739.html
-  /usr/share/tea/doc/ru/c105.html
+  /usr/share/tea/doc/ru/a794.html
+  /usr/share/tea/doc/ru/c107.html
   /usr/share/tea/doc/ru/c13.html
-  /usr/share/tea/doc/ru/c189.html
-  /usr/share/tea/doc/ru/c204.html
-  /usr/share/tea/doc/ru/c252.html
+  /usr/share/tea/doc/ru/c191.html
+  /usr/share/tea/doc/ru/c206.html
+  /usr/share/tea/doc/ru/c254.html
   /usr/share/tea/doc/ru/c31.html
-  /usr/share/tea/doc/ru/c316.html
-  /usr/share/tea/doc/ru/c588.html
-  /usr/share/tea/doc/ru/c595.html
-  /usr/share/tea/doc/ru/c626.html
-  /usr/share/tea/doc/ru/c650.html
+  /usr/share/tea/doc/ru/c318.html
+  /usr/share/tea/doc/ru/c641.html
+  /usr/share/tea/doc/ru/c648.html
+  /usr/share/tea/doc/ru/c680.html
   /usr/share/tea/doc/ru/c704.html
-  /usr/share/tea/doc/ru/c725.html
-  /usr/share/tea/doc/ru/c735.html
-  /usr/share/tea/doc/ru/c75.html
-  /usr/share/tea/doc/ru/c97.html
+  /usr/share/tea/doc/ru/c758.html
+  /usr/share/tea/doc/ru/c77.html
+  /usr/share/tea/doc/ru/c780.html
+  /usr/share/tea/doc/ru/c790.html
+  /usr/share/tea/doc/ru/c99.html
   /usr/share/tea/doc/ru/index.html
-  /usr/share/tea/doc/ru/x235.html
-  /usr/share/tea/doc/ru/x262.html
-  /usr/share/tea/doc/ru/x281.html
-  /usr/share/tea/doc/ru/x296.html
-  /usr/share/tea/doc/ru/x323.html
-  /usr/share/tea/doc/ru/x330.html
-  /usr/share/tea/doc/ru/x352.html
-  /usr/share/tea/doc/ru/x361.html
-  /usr/share/tea/doc/ru/x386.html
+  /usr/share/tea/doc/ru/x237.html
+  /usr/share/tea/doc/ru/x264.html
+  /usr/share/tea/doc/ru/x283.html
+  /usr/share/tea/doc/ru/x298.html
+  /usr/share/tea/doc/ru/x325.html
+  /usr/share/tea/doc/ru/x332.html
+  /usr/share/tea/doc/ru/x354.html
+  /usr/share/tea/doc/ru/x367.html
   /usr/share/tea/doc/ru/x392.html
-  /usr/share/tea/doc/ru/x404.html
-  /usr/share/tea/doc/ru/x414.html
-  /usr/share/tea/doc/ru/x487.html
-  /usr/share/tea/doc/ru/x491.html
-  /usr/share/tea/doc/ru/x505.html
-  /usr/share/tea/doc/ru/x544.html
+  /usr/share/tea/doc/ru/x398.html
+  /usr/share/tea/doc/ru/x418.html
+  /usr/share/tea/doc/ru/x429.html
+  /usr/share/tea/doc/ru/x441.html
+  /usr/share/tea/doc/ru/x454.html
+  /usr/share/tea/doc/ru/x464.html
+  /usr/share/tea/doc/ru/x537.html
+  /usr/share/tea/doc/ru/x541.html
   /usr/share/tea/doc/ru/x55.html
-  /usr/share/tea/doc/ru/x553.html
-  /usr/share/tea/doc/ru/x578.html
+  /usr/share/tea/doc/ru/x558.html
+  /usr/share/tea/doc/ru/x597.html
   /usr/share/tea/doc/ru/x60.html
-  /usr/share/tea/doc/ru/x645.html
-  /usr/share/tea/doc/ru/x661.html
-  /usr/share/tea/doc/ru/x671.html
-  /usr/share/tea/doc/ru/x678.html
-  /usr/share/tea/doc/ru/x682.html
-  /usr/share/tea/doc/ru/x685.html
-  /usr/share/tea/doc/ru/x701.html
-  /usr/share/tea/doc/ru/x721.html
+  /usr/share/tea/doc/ru/x606.html
+  /usr/share/tea/doc/ru/x631.html
+  /usr/share/tea/doc/ru/x699.html
+  /usr/share/tea/doc/ru/x715.html
+  /usr/share/tea/doc/ru/x725.html
+  /usr/share/tea/doc/ru/x732.html
+  /usr/share/tea/doc/ru/x736.html
+  /usr/share/tea/doc/ru/x739.html
+  /usr/share/tea/doc/ru/x755.html
+  /usr/share/tea/doc/ru/x776.html
   /usr/share/tea/doc/tea_doc.css
   /usr/share/tea/pixmaps/tea_icon_v2.png
   /usr/share/tea/pixmaps/tea_logo.jpg
@@ -239,6 +249,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 15.0.0-1 -----
+Version bump.
 
 ----- version 13.3-1 -----
 Version bump.
