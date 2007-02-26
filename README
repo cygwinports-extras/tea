@@ -3,25 +3,25 @@ tea
 Small but sophisticated GTK2 text editor.
 
 Runtime requirements:
-  cygwin-1.5.23-2
+  cygwin-1.5.24-2
   GConf2-2.16.0-1
-  gdk-pixbuf2-2.10.6-1
-  glib2-2.12.4-1
+  gdk-pixbuf2-2.10.9-1
+  glib2-2.12.9-1
   gnome-vfs2-2.16.2-1
-  gtk2-x11-2.10.6-1
-  gtksourceview-1.8.2-1
+  gtk2-x11-2.10.9-1
+  gtksourceview-1.8.3-1
   libX11_6-1.1.1-1
   libaspell15-0.50.3-1
   libintl8-0.15-1
-  pango-1.14.9-1
+  pango-1.14.10-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  cygwin-1.5.23-2
-  autoconf2.5-2.60-2
+  cygwin-1.5.24-2
+  autoconf2.5-2.61-1
   automake1.9-1.9.6-2
   binutils-20060817-1
-  cygport-0.2.7-1
+  cygport-0.2.10-1
   gawk-3.1.5-4
   gcc-core-3.4.4-3
   make-3.81-1
@@ -37,29 +37,29 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack tea-15.0.1-X-src.tar.bz2
+  unpack tea-16.0.2-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./tea-15.0.1-X.cygport all
+  cygport ./tea-16.0.2-X.cygport all
 
 This will create:
-  /usr/src/tea-15.0.1-X-src.tar.bz2
-  /usr/src/tea-15.0.1-X.tar.bz2
+  /usr/src/tea-16.0.2-X-src.tar.bz2
+  /usr/src/tea-16.0.2-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
   /usr/bin/tea.exe
-  /usr/share/doc/Cygwin/tea-15.0.1.README
-  /usr/share/doc/tea-15.0.1/AUTHORS
-  /usr/share/doc/tea-15.0.1/COPYING
-  /usr/share/doc/tea-15.0.1/ChangeLog
-  /usr/share/doc/tea-15.0.1/INSTALL
-  /usr/share/doc/tea-15.0.1/NEWS
-  /usr/share/doc/tea-15.0.1/README
-  /usr/share/doc/tea-15.0.1/TODO
+  /usr/share/doc/Cygwin/tea-16.0.2.README
+  /usr/share/doc/tea-16.0.2/AUTHORS
+  /usr/share/doc/tea-16.0.2/COPYING
+  /usr/share/doc/tea-16.0.2/ChangeLog
+  /usr/share/doc/tea-16.0.2/INSTALL
+  /usr/share/doc/tea-16.0.2/NEWS
+  /usr/share/doc/tea-16.0.2/README
+  /usr/share/doc/tea-16.0.2/TODO
   /usr/share/locale/cs/LC_MESSAGES/tea.mo
   /usr/share/locale/de/LC_MESSAGES/tea.mo
   /usr/share/locale/es/LC_MESSAGES/tea.mo
@@ -77,57 +77,57 @@ Files included in the binary package:
   /usr/share/tea/doc/README
   /usr/share/tea/doc/TODO
   /usr/share/tea/doc/cs/index.html
-  /usr/share/tea/doc/en/a1000.html
-  /usr/share/tea/doc/en/c107.html
-  /usr/share/tea/doc/en/c118.html
+  /usr/share/tea/doc/en/a1003.html
+  /usr/share/tea/doc/en/c109.html
+  /usr/share/tea/doc/en/c120.html
   /usr/share/tea/doc/en/c14.html
-  /usr/share/tea/doc/en/c221.html
-  /usr/share/tea/doc/en/c238.html
+  /usr/share/tea/doc/en/c224.html
+  /usr/share/tea/doc/en/c241.html
   /usr/share/tea/doc/en/c30.html
-  /usr/share/tea/doc/en/c313.html
-  /usr/share/tea/doc/en/c379.html
+  /usr/share/tea/doc/en/c316.html
+  /usr/share/tea/doc/en/c382.html
   /usr/share/tea/doc/en/c77.html
-  /usr/share/tea/doc/en/c779.html
-  /usr/share/tea/doc/en/c785.html
-  /usr/share/tea/doc/en/c821.html
-  /usr/share/tea/doc/en/c849.html
-  /usr/share/tea/doc/en/c931.html
-  /usr/share/tea/doc/en/c956.html
-  /usr/share/tea/doc/en/c964.html
+  /usr/share/tea/doc/en/c782.html
+  /usr/share/tea/doc/en/c788.html
+  /usr/share/tea/doc/en/c824.html
+  /usr/share/tea/doc/en/c852.html
+  /usr/share/tea/doc/en/c934.html
+  /usr/share/tea/doc/en/c959.html
+  /usr/share/tea/doc/en/c967.html
   /usr/share/tea/doc/en/index.html
-  /usr/share/tea/doc/en/x280.html
-  /usr/share/tea/doc/en/x323.html
-  /usr/share/tea/doc/en/x342.html
-  /usr/share/tea/doc/en/x359.html
-  /usr/share/tea/doc/en/x388.html
-  /usr/share/tea/doc/en/x414.html
-  /usr/share/tea/doc/en/x448.html
-  /usr/share/tea/doc/en/x459.html
-  /usr/share/tea/doc/en/x473.html
-  /usr/share/tea/doc/en/x483.html
-  /usr/share/tea/doc/en/x490.html
-  /usr/share/tea/doc/en/x505.html
-  /usr/share/tea/doc/en/x526.html
-  /usr/share/tea/doc/en/x537.html
-  /usr/share/tea/doc/en/x548.html
-  /usr/share/tea/doc/en/x560.html
+  /usr/share/tea/doc/en/x283.html
+  /usr/share/tea/doc/en/x326.html
+  /usr/share/tea/doc/en/x345.html
+  /usr/share/tea/doc/en/x362.html
+  /usr/share/tea/doc/en/x391.html
+  /usr/share/tea/doc/en/x417.html
+  /usr/share/tea/doc/en/x451.html
+  /usr/share/tea/doc/en/x462.html
+  /usr/share/tea/doc/en/x476.html
+  /usr/share/tea/doc/en/x486.html
+  /usr/share/tea/doc/en/x493.html
+  /usr/share/tea/doc/en/x508.html
+  /usr/share/tea/doc/en/x529.html
+  /usr/share/tea/doc/en/x540.html
+  /usr/share/tea/doc/en/x551.html
+  /usr/share/tea/doc/en/x563.html
   /usr/share/tea/doc/en/x59.html
-  /usr/share/tea/doc/en/x659.html
-  /usr/share/tea/doc/en/x665.html
-  /usr/share/tea/doc/en/x681.html
+  /usr/share/tea/doc/en/x662.html
+  /usr/share/tea/doc/en/x668.html
+  /usr/share/tea/doc/en/x684.html
   /usr/share/tea/doc/en/x71.html
-  /usr/share/tea/doc/en/x734.html
-  /usr/share/tea/doc/en/x743.html
-  /usr/share/tea/doc/en/x769.html
-  /usr/share/tea/doc/en/x862.html
-  /usr/share/tea/doc/en/x888.html
-  /usr/share/tea/doc/en/x892.html
-  /usr/share/tea/doc/en/x899.html
-  /usr/share/tea/doc/en/x905.html
-  /usr/share/tea/doc/en/x914.html
-  /usr/share/tea/doc/en/x920.html
-  /usr/share/tea/doc/en/x927.html
-  /usr/share/tea/doc/en/x948.html
+  /usr/share/tea/doc/en/x737.html
+  /usr/share/tea/doc/en/x746.html
+  /usr/share/tea/doc/en/x772.html
+  /usr/share/tea/doc/en/x865.html
+  /usr/share/tea/doc/en/x891.html
+  /usr/share/tea/doc/en/x895.html
+  /usr/share/tea/doc/en/x902.html
+  /usr/share/tea/doc/en/x908.html
+  /usr/share/tea/doc/en/x917.html
+  /usr/share/tea/doc/en/x923.html
+  /usr/share/tea/doc/en/x930.html
+  /usr/share/tea/doc/en/x951.html
   /usr/share/tea/doc/es/a799.html
   /usr/share/tea/doc/es/c105.html
   /usr/share/tea/doc/es/c18.html
@@ -249,6 +249,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 16.0.2-1 -----
+Version bump.
 
 ----- version 15.0.1-1 -----
 Version bump.
