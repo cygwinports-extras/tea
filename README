@@ -21,7 +21,7 @@ Build requirements:
   autoconf2.5-2.61-1
   automake1.9-1.9.6-2
   binutils-20060817-1
-  cygport-0.2.10-1
+  cygport-0.2.11-1
   gawk-3.1.5-4
   gcc-core-3.4.4-3
   make-3.81-1
@@ -37,29 +37,29 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack tea-16.0.5-X-src.tar.bz2
+  unpack tea-16.1.0-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./tea-16.0.5-X.cygport all
+  cygport ./tea-16.1.0-X.cygport all
 
 This will create:
-  /usr/src/tea-16.0.5-X-src.tar.bz2
-  /usr/src/tea-16.0.5-X.tar.bz2
+  /usr/src/tea-16.1.0-X-src.tar.bz2
+  /usr/src/tea-16.1.0-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
   /usr/bin/tea.exe
-  /usr/share/doc/Cygwin/tea-16.0.5.README
-  /usr/share/doc/tea-16.0.5/AUTHORS
-  /usr/share/doc/tea-16.0.5/COPYING
-  /usr/share/doc/tea-16.0.5/ChangeLog
-  /usr/share/doc/tea-16.0.5/INSTALL
-  /usr/share/doc/tea-16.0.5/NEWS
-  /usr/share/doc/tea-16.0.5/README
-  /usr/share/doc/tea-16.0.5/TODO
+  /usr/share/doc/Cygwin/tea-16.1.0.README
+  /usr/share/doc/tea-16.1.0/AUTHORS
+  /usr/share/doc/tea-16.1.0/COPYING
+  /usr/share/doc/tea-16.1.0/ChangeLog
+  /usr/share/doc/tea-16.1.0/INSTALL
+  /usr/share/doc/tea-16.1.0/NEWS
+  /usr/share/doc/tea-16.1.0/README
+  /usr/share/doc/tea-16.1.0/TODO
   /usr/share/locale/cs/LC_MESSAGES/tea.mo
   /usr/share/locale/de/LC_MESSAGES/tea.mo
   /usr/share/locale/es/LC_MESSAGES/tea.mo
@@ -249,6 +249,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 16.1.0-1 -----
+Version bump.
 
 ----- version 16.0.5-1 -----
 Version bump.
