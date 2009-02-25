@@ -1,4 +1,0 @@
-category: Gnome Editors
-requires: cygwin GConf2 gdk-pixbuf2 glib2 gnome-vfs2 gtk2-x11 gtksourceview libX11_6 libaspell15 libintl8 pango
-sdesc: "Small but sophisticated GTK2 text editor"
-ldesc: "Small but sophisticated GTK2 text editor"
