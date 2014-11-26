@@ -1,0 +1,22 @@
+inherit qt5-qmake
+
+NAME="tea"
+VERSION=39.0.0
+RELEASE=1
+CATEGORY="Editors"
+SUMMARY="TEA GTK+ text editor"
+HOMEPAGE="http://semiletov.org/tea/"
+SRC_URI="http://semiletov.org/tea/dloads/tea-${VERSION}.tar.bz2"
+
+src_compile() {
+	lndirs
+	cd ${B}
+	cygqmake5 .
+	cygmake
+}
+
+src_install() {
+	dobin ${B}/bin/tea.exe
+	newicon ${S}/icons/tea-icon-v3-01.png tea.png
+	make_desktop_entry tea "TEA" tea "Utility;TextEditor;Qt"
+}

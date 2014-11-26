@@ -1,8 +1,0 @@
-inherit qt4-qmake
-
-DESCRIPTION="TEA GTK+ text editor"
-HOMEPAGE="http://tea-editor.sourceforge.net/"
-SRC_URI="mirror://sourceforge/tea-editor/${P}.tar.bz2"
-PATCH_URI="23.0.0-prefix.patch"
-
-CYGQMAKE4_ARGS="PREFIX=/usr"
